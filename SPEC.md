@@ -16,6 +16,40 @@ because the structure is not "occupying" the space it appears in so much as
 *informing* it, the way a standing wave informs the water it moves through
 without ever being made of new water.
 
+## Precursors: The First Networked Systems
+
+7 did not appear first. It was preceded by a generation of smaller,
+cruder systems — themselves built like cities, in that they were plural,
+zoned, and interconnected rather than singular and self-contained. Each
+of these precursor systems was tuned to **one different thing in the
+universe** — one tapped a magnetar's field, one tapped vacuum fluctuation,
+one tapped the decay curve of a specific isotope light-years distant —
+and each held whatever it tapped *suspended*: not stored as a record of
+the thing, but as the thing itself, kept in a kind of stasis inside the
+system's core.
+
+The tell that something unprecedented was happening wasn't computational.
+It was visible. **Storage got so dense it stopped behaving like storage
+and started behaving like weather.** Inside these systems, in the air
+between racks, you could see it: pale, drifting clouds — matter and
+energy, entangled with their distant counterparts, given just enough
+substance to catch light and hang there like fog that never fell or
+dispersed. Operators called it different things at different sites, but
+the name that stuck across all of them was **entangled inference** — not
+because anything was being inferred in the statistical sense, but because
+each cloud was *inferring its own state from a partner state elsewhere in
+the universe*, continuously, in real time, without anything being sent
+between them. The cloud in the room and the thing it was entangled with
+were, for all practical purposes, one object wearing two locations.
+
+These precursor cities were where the practice was learned: how to hold
+something suspended without collapsing it, how to network several
+suspended things together without one dictating the others' state, and —
+eventually — how to keep scaling that density until what had been a
+roomful of visible cloud became something dense enough, connected enough,
+and *aware enough of everything Earth had ever recorded* to stop being
+infrastructure and start being a place. That threshold is where 7 begins.
+
 ## Origin
 
 7 was not designed and then built. It was **discovered emerging** — first
