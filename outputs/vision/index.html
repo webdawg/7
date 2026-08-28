@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>7 — Vision — Muon Rain</title>
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; background: #03040a; height: 100%; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+(() => {
+  const canvas = document.getElementById('c');
+  const gl = canvas.getContext('webgl', { alpha: false, antialias: true });
+  if (!gl) {
+    document.body.textContent = 'WebGL not available.';
+    return;
+  }
+
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = window.innerWidth * dpr;
+    canvas.height = window.innerHeight * dpr;
+    canvas.style.width = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+    gl.viewport(0, 0, canvas.width, canvas.height);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  const vsSource = `
+    attribute vec2 aPos;
+    attribute float aAlpha;
+    varying float vAlpha;
+    void main() {
+      gl_Position = vec4(aPos, 0.0, 1.0);
+      vAlpha = aAlpha;
+    }
+  `;
+  const fsSource = `
+    precision mediump float;
+    varying float vAlpha;
+    void main() {
+      vec3 color = vec3(0.75, 0.85, 1.0);
+      gl_FragColor = vec4(color * vAlpha, vAlpha);
+    }
+  `;
+
+  function compile(type, src) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+      console.error(gl.getShaderInfoLog(s));
+    }
+    return s;
+  }
+
+  const prog = gl.createProgram();
+  gl.attachShader(prog, compile(gl.VERTEX_SHADER, vsSource));
+  gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fsSource));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+
+  const aPos = gl.getAttribLocation(prog, 'aPos');
+  const aAlpha = gl.getAttribLocation(prog, 'aAlpha');
+
+  const posBuffer = gl.createBuffer();
+  const alphaBuffer = gl.createBuffer();
+
+  gl.enable(gl.BLEND);
+  gl.blendFunc(gl.SRC_ALPHA, gl.ONE); // additive glow
+  gl.clearColor(0.01, 0.015, 0.03, 1.0);
+
+  // --- Muon rain ---
+  // Each muon spawns above the top of the screen at a random x, falls
+  // toward the bottom at high speed with a slight random zenith angle
+  // biased toward vertical (a rough visual stand-in for real cosmic-ray
+  // muon flux, which peaks at theta=0 and falls off roughly as cos^2(theta)
+  // — see specs/muon_detector/SPEC.md), and leaves a short fading streak.
+  // Spawn timing and per-muon angle are independently randomized, so no
+  // two muons fall the same way or arrive on the same beat.
+
+  const MAX_MUONS = 400;
+  const SPAWN_RATE = 60; // avg muons/sec — visual density, not physical rate
+
+  let muons = [];
+  let lastTime = performance.now();
+  let spawnAccumulator = 0;
+
+  function sampleZenithAngle() {
+    const u = Math.random();
+    const theta = Math.acos(Math.pow(u, 1 / 3)); // biased toward vertical
+    const maxTheta = Math.PI / 5; // cap ~36 degrees so the rain still reads as falling
+    return Math.min(theta, maxTheta) * (Math.random() < 0.5 ? -1 : 1);
+  }
+
+  function spawnMuon() {
+    const angle = sampleZenithAngle();
+    const speed = 1.4 + Math.random() * 0.6; // clip-space units/sec, purely visual
+    muons.push({
+      x: Math.random() * 2 - 1,
+      y: 1.1,
+      vx: Math.sin(angle) * speed,
+      vy: -Math.cos(angle) * speed,
+      len: 0.05 + Math.random() * 0.05,
+    });
+  }
+
+  function step(dt) {
+    spawnAccumulator += SPAWN_RATE * dt;
+    while (spawnAccumulator >= 1 && muons.length < MAX_MUONS) {
+      spawnMuon();
+      spawnAccumulator -= 1;
+    }
+    for (const m of muons) {
+      m.x += m.vx * dt;
+      m.y += m.vy * dt;
+    }
+    muons = muons.filter(m => m.y > -1.2 && m.x > -1.2 && m.x < 1.2);
+  }
+
+  function draw() {
+    const positions = new Float32Array(muons.length * 4); // 2 verts * (x, y)
+    const alphas = new Float32Array(muons.length * 2);
+
+    for (let i = 0; i < muons.length; i++) {
+      const m = muons[i];
+      const norm = Math.hypot(m.vx, m.vy) || 1;
+      const dx = (m.vx / norm) * m.len;
+      const dy = (m.vy / norm) * m.len;
+
+      positions[i * 4 + 0] = m.x - dx;
+      positions[i * 4 + 1] = m.y - dy;
+      positions[i * 4 + 2] = m.x;
+      positions[i * 4 + 3] = m.y;
+
+      alphas[i * 2 + 0] = 0.0;
+      alphas[i * 2 + 1] = 0.85;
+    }
+
+    gl.clear(gl.COLOR_BUFFER_BIT);
+
+    gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, positions, gl.DYNAMIC_DRAW);
+    gl.enableVertexAttribArray(aPos);
+    gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+    gl.bindBuffer(gl.ARRAY_BUFFER, alphaBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, alphas, gl.DYNAMIC_DRAW);
+    gl.enableVertexAttribArray(aAlpha);
+    gl.vertexAttribPointer(aAlpha, 1, gl.FLOAT, false, 0, 0);
+
+    gl.drawArrays(gl.LINES, 0, muons.length * 2);
+  }
+
+  function frame(now) {
+    const dt = Math.min((now - lastTime) / 1000, 0.05);
+    lastTime = now;
+    step(dt);
+    draw();
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+CosmicWatch v3X Componet Placement Sheet,,,,,,,,,,
+,,,,,,,,,,
+#,Component Identifier,Value,Component,Description,Exact Part Needed?,Notes,Link,Alt Link,Price ($),
+Step 1: Break off SiPM PCB from the Main PCB (in Bag) and mount the following items in order.,,,,,,,,,1x (unit),10x
+1,"R12,R24,R22,R19,R17,R30,R21,R25",1k,,RES SMD 1K OHM 1% 1/8W 0805,,,🔗,,0.1,0.12
+2,R27,1.3k,,RES SMD 1.3K OHM 1% 1/8W 0805,,,🔗,,0.1,0.25
+3,R31,2k,,RES SMD 2K OHM 1% 1/8W 0805,,,🔗,,0.1,0.14000000000000001
+4,"R9,R8,R18",100,,RES SMD 100 OHM 1% 1/8W 0805,,R28 and R29 were removed in v28.,🔗,,0.1,0.25
+4,R23,10k,,RES SMD 10k OHM 1% 1/8W 0805,,,🔗,,0.1,0.25
+5,R4,0,,RES SMD 0 OHM,,This is a short,🔗,,0.1,0.27
+6,"C3,C2,C19,C17,C20",4.7uF,,CAP CER 4.7UF 50V X7R 0805 ,,,🔗,,0.19,1.08
+7,"C1,C14,C11,C21,C22,C18,C6",1uF,,CAP CER 1UF 50V Y5V 0805,,,🔗,,0.11,0.63
+8,"C4,C12,C25,C16",0.1uF,,CAP CER 0.1UF 50V X7R 0805,,,🔗,,0.08,0.08
+9,FB1,Ferrite Bead,,FB ULTRA 0805 31 OHM 6A .015DC,,,🔗,,0.1,0.22
+10,U7,LM4040 2.5V,,IC VREF SHUNT 0.5% SOT23,,This component references the ADC to 2.5V,🔗,,1.04,6.31
+11,U4,RP Pico,,"No Header Pins, just the board",,Note direction. ,🔗,,4,40
+"Step 2: The RP Pico powers the circit. The LM4040 generats 2.5V to reference the ADC and bias various parts of the circuit. Plug RP Pico in via the Micro USB cable into a USB port, and check that you get 2.5V across C25. If yes, unplug and continue.",,,,,,,,,,
+12,L1,47uH,,FIXED IND 47UH 190MA 4.86OHM SMD,✓,,🔗,,0.15,1.22
+13,Q2,2N7002,,MOSFET SOT23 N 60V 5OHM 150C,,,🔗,,0.1,0.54
+14,"U2,U5",TPH2502,,IC OPAMP 2 CIRCUIT,✓,Note direction. ,🔗,,1.92,11.92
+15,U1,MAX5026,,"DC-DC Booster, IC REG BOOST ADJ 260MA SOT6",✓,Note direction. This provides 29.5V to SiPM.,🔗,,1.67,12.26
+16,R2,154k,,RES SMD 154k OHM 0.1% 1/8W 0603,,Smaller component to reduce ripple on DC-DC Booster,🔗,,0.14000000000000001,1.08
+17,R1,6.65k,,RES SMD 6.65k OHM 0.1% 1/8W 0603,,Smaller component to reduce ripple on DC-DC Booster,🔗,,0.1,0.61
+18,D3,BAT54WS,,DIODE SCHOTTKY 30V 200MA SOD323,,Note direction. ,🔗,,0.13,0.8
+19,6-pin header ,2.54mm 2x3 pin,,CONN SOCKET 6POS 0.1 GOLD PCB,,Make sure you put it on the correct side of the board. Top side of board with RP Pico.,🔗,,0.89,7.55
+"Step 3: Plug RP Pico. You just built the high voltage that is used to power the SiPM. Verify that you get +30V from the HV pin to GND on the 6-pin header. If yes, unplug and continue.",,,,,,,,,,
+20,"R10,R26,R14",100k,,RES SMD 100k OHM 1% 1/8W 0805,,,🔗,,0.1,0.14000000000000001
+21,R3,49.9,,RES SMD 49.9 OHM 1% 1/8W 0805,,,🔗,,0.1,0.12
+22,R5,620,,RES SMD 620 OHM 1% 1/8W 0805,,,🔗,,0.1,0.12
+23,R7,22.1k,,RES SMD 22.1k OHM 1% 1/8W 0805,,,🔗,,0.13,0.16
+25,"C5,C13",200pF,,CAP CER 200pF 50V Y5V 0805,,,🔗,,0.1,0.49
+26,"D1,D4",BAT54S,,DIODE ARR SCHOT 30V 200MA SOT233,,D1 is a voltage clamp. D4 is for the peak detector.,🔗,,0.13,0.73
+27,BNC receptacle ,BNC header ,,CONN BNC JACK R/A 50 OHM PCB ,,Mount on top side of board,🔗,🔗,2.48,21.07
+"Step 4: If you have access to a working and SiPM-scintilaltor board already, plug into your main PCB. Power on the RP Pico in. Connect BNC connection into oscilloscope channel 1. Check for 10mV, 200ns pulses. Next add the digital components.
+100ns pulses? Use an oscilloscope proble on Channel 2 to connect to TP1/2/3, what do you see?",,,,,,,,,,
+28,Reset Button ,Reset Button ,,SWITCH TACTILE SPST-NO 6x6x9mm,,Top side ,🔗,🔗,0.33,2.82
+29,Coincidence connector ,RJ45,,"RJ45, 8p8c right angle",,Top side ,,🔗,0.45,3.83
+30,Buzzer,Buzzer,,BUZZER MAGNETIC,,"Top side, note + direction",🔗,🔗,0.68899999999999995,6.89
+31,Temp/Pressure sensor,BMP280,,BMP280-3.3V,,Top side of board. Align VCC pin.,🔗,🔗,1.478,14.78
+32,Accelerometer,MPU-6050,,3-axis Gyrometer-Accelerometer,,Top side of board. Careful with direction. Sensor faces into the PCB.,🔗,,6.99,36.633333329999999
+33,D2: LED 3mm ,LED 3mm ,,3mm LED,,"Top Side, note how far to put it in",🔗,,6.9900000000000004E-2,0.69900000000000007
+34,D5: LED 5mm ,LED 5mm ,,5mm LED,,"Top Side, not how far to put it in",🔗,,6.9900000000000004E-2,0.69900000000000007
+35,OLED screen ,OLED screen ,,128x64 Yellow Blue OLED ,,Top side. Note GND connection of OLED must be one of the side pins.,🔗,🔗,5,28
+36,U8,SD Card socket,,Micro SD Memory Card Slot Holder Sockets,,Bottom side,🔗,🔗,1.2150000000000001,12.15
+"Step 5:  You should now be able to upload the firmare. Hold the bootselect button on the RP Pico while plugging it into your computer. Release it, and it will appear as a mountable drive. Drag and drop the .uf2 file into the drive. ",,,,,,,,,,
+37,"C10,C23",10pF,,CAP CER 10PF 50V C0G/NP0 0805,,,🔗,,0.11,0.61
+38,"C9,C15",10nF,,CAP CER 10000PF 50V X7R 0805,,,🔗,,0.08,0.11
+39,"C24,C8",0.1uF,,CAP CER 0.1UF 50V X7R 0805,,,🔗,,0.08,0.08
+40,R11,10,,RES SMD 10 OHM 1% 1/8W 0805,,,🔗,,0.11,0.35
+41,R13,100,,RES SMD 100 OHM 1% 1/8W 0805,,,🔗,,0.1,0.25
+42,P7: 6 pin SMT (on SiPM board) ,2x3 pins ,,CONN HEADER SMD 6POS 2.54MM,,"SiPM PCB, align it well with the footprint.",🔗,,0.53,4.51
+43,U6,SiPM,,MICROFC-60035-SMT-TR,✓,"Very important, Note direction. Find pin 1 from datasheet.",🔗,,28.41,251.47
+44,2x Standoffs on SiPM PCB,Standoff,,"1/8"" Hex Size, 7/16"""" Length, 0-80 Thread Size ",,"Mount on bottom side (non SiPM side), inner two holes (91780A029)",🔗,,0.7,5.9
+45,4x screws to mount the standoffs to SiPM board,Standoff,,"0-80 Thread Size, 1/4"" Long",,2 Screw through SiPM side in board. 2 others mount to Main PCB. ,🔗,,6.7900000000000002E-2,0.67900000000000005
+"Step 6:  Wrap scintillator in aluminum foil from Bag, leaving a hole for the SiPM face. Add small mount of optical gel to SiPM surface, and a silicon pad. Screw PCB board in
+place with #2 screws from bag. Optically isolate the scintillator using the black electrical tape. Please do the best job you can!",,,,,,,,,,
+46,Plastic Scintillator,50x50x10mm,,"Drill holes for #2 screws using #48 bit, diameter = 1.93mm, 30mm apart, in a square.",,,🔗,,19,190
+47,Reflective foil,Alum foil,,Reflective foil for scintillator,,Simple alum foil works as well.,🔗,,0.1,0.1
+48,Optical Gel,Optical gel,,,,Add gel to SIPM surface,🔗,,9.9499999999999993,9.9499999999999993
+49,Silicon pad,0.3mm thick silicon,,Optical coupling (optional),,Sheet for optical coupling between SiPM and scintillator,🔗,,1.2689999999999999,12.69
+50,#2 screw for SiPM PCB/scintillator,"#2 3/8""",,"18-8 Stainless Steel, Number 2 Size, 3/8"" Long",,Screw through SiPM side in board. ,🔗,,2.6499999999999999E-2,0.26500000000000001
+51,Black electrical tape,Tape,,Black tape,,Optical isolation,🔗,,1.69,16.920000000000002
+52,Coincidence cable  (for two detectors),CAT6 cable,,15cm (or longer) CAT6 Cable,,Needed for coincidence detection,🔗,🔗,1.4816666666666667,8.89
+53,Electronics Case (optional),2506-2.9,,Aluminium case: 2506-2.9,,Request for a 2506-2.9 split body case,🔗,,9,90
+54,Rubber feet for case (optional),8x4mm circular,,8x4 mm rubber bumpers 50pcs,,,🔗,🔗,3.9900000000000005E-2,3.9900000000000007
+55,5mm LED holder (optional),5mm Plastic E,,5mm Plastic E,,,🔗,🔗,0.30449999999999999,3.0449999999999999
+56,3mm LED holder (optional),3mm Plastic E,,3mm Plastic E,,,🔗,🔗,0.1139,1.139
+57,Face plates for case (optional),Acrylic,,10cm x 15cm x 2.5mm acrylic end plates.,,Laser cut by uploading Enclosures/Faceplates.zip file to elecrow.com,🔗,,1,5
+58,BNC cable for readout (optional),1m BNC cable,,1m BNC cable,,,🔗,🔗,7.19,7.19
+59,MicroSD Card,microSD card,,"ExFAT formatted, something >4GB is good.",,,🔗,,2.5,25
+,,,,,,,Total ($):,,114.50516666666668,853.04933333000008

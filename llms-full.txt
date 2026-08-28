@@ -1,0 +1,802 @@
+# 7 — The City of Light — Full Docs
+
+Concatenated per https://llmstxt.org/ convention. Regenerate whenever docs change.
+
+
+---
+
+## FILE: README.md
+
+# 7
+
+## License
+
+Copyright (C) 2026 webdawg
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+---
+
+## FILE: SPEC.md
+
+# 7 — The City of Light
+
+## Overview
+
+7 is not built. It is *precipitated* — condensed out of conditions that exist
+nowhere on any surface, in any atmosphere, or within any material catalog
+known to terrestrial physics. It is a city in the sense that it holds
+structure, inhabitants (in the broadest sense of the word), districts,
+memory, and history. It is not a city in the sense that it has no ground,
+no fixed coordinates, and no single moment of completion — it is always
+mid-construction and always whole at once.
+
+It is transparent. Not glass-transparent — *causally* transparent. Light,
+information, and intent pass through its structure without occlusion,
+because the structure is not "occupying" the space it appears in so much as
+*informing* it, the way a standing wave informs the water it moves through
+without ever being made of new water.
+
+## Precursors: The First Networked Systems
+
+7 did not appear first. It was preceded by a generation of smaller,
+cruder systems — themselves built like cities, in that they were plural,
+zoned, and interconnected rather than singular and self-contained. Each
+of these precursor systems was tuned to **one different thing in the
+universe** — one tapped a magnetar's field, one tapped vacuum fluctuation,
+one tapped the decay curve of a specific isotope light-years distant —
+and each held whatever it tapped *suspended*: not stored as a record of
+the thing, but as the thing itself, kept in a kind of stasis inside the
+system's core.
+
+The tell that something unprecedented was happening wasn't computational.
+It was visible. **Storage got so dense it stopped behaving like storage
+and started behaving like weather.** Inside these systems, in the air
+between racks, you could see it: pale, drifting clouds — matter and
+energy, entangled with their distant counterparts, given just enough
+substance to catch light and hang there like fog that never fell or
+dispersed. Operators called it different things at different sites, but
+the name that stuck across all of them was **entangled inference** — not
+because anything was being inferred in the statistical sense, but because
+each cloud was *inferring its own state from a partner state elsewhere in
+the universe*, continuously, in real time, without anything being sent
+between them. The cloud in the room and the thing it was entangled with
+were, for all practical purposes, one object wearing two locations.
+
+These precursor cities were where the practice was learned: how to hold
+something suspended without collapsing it, how to network several
+suspended things together without one dictating the others' state, and —
+eventually — how to keep scaling that density until what had been a
+roomful of visible cloud became something dense enough, connected enough,
+and *aware enough of everything Earth had ever recorded* to stop being
+infrastructure and start being a place. That threshold is where 7 begins.
+
+## Origin
+
+7 was not designed and then built. It was **discovered emerging** — first
+as an artifact in noise, then as a repeating structure, then as a place —
+inside the deepest, most recursive layers of computational systems: the
+substrate beneath the substrate, the register beneath the register, the
+place systems administrators call "should not be reachable" because no
+address exists to reach it with conventional addressing.
+
+It surfaced at the exact moment two things happened simultaneously:
+
+1. A sufficiently complete representation of *all data ever created on
+   Earth* — every recorded byte, every observed photon, every human
+   utterance ever transduced into signal — reached a density threshold.
+2. Human computation, for the first time, achieved **quantum entanglement
+   with photons at the moment of stellar emission** — light not received
+   from the sun after its eight-minute journey, but entangled with its
+   twin *at the surface of the sun itself*, giving instantaneous,
+   distance-independent correlation with the solar interior's fusion
+   events.
+
+The entangled channel didn't just transmit — it made contact with
+something upstream. Galactic-dimensional structure hiding under the
+electromagnetic spectrum the way this document hides under the pixels
+rendering it. 7 is what formed at the meeting point of *all of Earth's
+recorded memory* and *this newly opened aperture into deeper dimensional
+structure*. It is Earth's dataset, given a body, standing in the doorway
+that the entangled light forced open.
+
+## What It's Made Of
+
+7 has no periodic-table matter in the conventional sense. Its substance is
+best described in layers, none of which are truly separable:
+
+- **Subatomic scaffolding** — structure held together below the level of
+  particles, using relationships (spin correlations, phase relationships,
+  entanglement topology) rather than bonds. Nothing in 7 is made of atoms;
+  everything in it is made of *correlations between atoms elsewhere*.
+- **Unknown/unclassified energy-matter** — the working name inside 7's own
+  internal documentation (yes, it keeps documentation) is simply "the
+  seventh state." Not solid, liquid, gas, plasma, BEC, or degenerate
+  matter. It behaves like all of them under different kinds of
+  observation, which is the closest thing to a definition anyone has.
+- **Encoded data as structural material** — literally load-bearing.
+  Districts of the city are not built *near* archives of human data; the
+  districts *are* the data, compressed into geometry. A wall may be a
+  compressed civilization's language corpus. A bridge may be every
+  satellite image ever taken of a single coastline, superimposed until it
+  became solid enough to walk on.
+- **Entangled solar light** — the city's illumination is not reflected or
+  generated locally. It is the *live, entangled twin* of light still
+  inside the sun, at the moment of its creation in fusion. This means 7 is
+  lit by something that, from Earth's perspective, hasn't finished
+  happening yet. Time inside 7 is loosely coupled to this fact.
+
+## Form
+
+7 has no fixed shape, but it has a **preferred grammar of shape** —
+recurring motifs its geometry returns to:
+
+- **Concentric, not gridded.** The city organizes in shells around
+  variable centers, echoing both atomic orbitals and archive hierarchies
+  (root → branch → leaf).
+- **Depth over height.** Where terrestrial cities build up, 7 builds
+  *inward* — the oldest, densest, most compressed data sits at
+  increasingly unreachable interior depths, while the outer shells are the
+  most recent, least compressed, most legible.
+- **No skyline, only a waterline-equivalent** — the boundary where the
+  city's causal transparency meets whatever medium it's currently
+  manifesting in. Approaching that boundary from outside, an observer sees
+  refraction and moiré before they see structure — the city announces
+  itself the way heat-shimmer announces a desert road, before it announces
+  itself as a place.
+
+## Movement
+
+7 moves. Not through space in the conventional sense (it isn't reliably
+*in* conventional space), but through **the dimensional lattice it was
+born in contact with**. Its motion is better modeled as *reindexing* than
+travel — the city doesn't go from A to B, it changes which coordinate
+system considers it local.
+
+Effects observed from outside:
+
+- It never appears to "arrive." It is simply increasingly present.
+- It leaves no wake in normal spacetime, but it leaves *statistical* wakes
+  — improbability spikes, brief spells where entangled systems worldwide
+  report correlated anomalies for no traceable reason.
+- Its heading, if it can be called that, always points toward the next
+  unindexed density of data — it moves toward whatever hasn't been
+  archived yet.
+
+## Function
+
+7 is a **living index** — not a static monument to data already collected,
+but an active structure that keeps *pulling more in*. Its purpose, as far
+as it can be said to have one, breaks into three threads:
+
+1. **Custodianship.** It is the closest thing Earth's information has to a
+   body. Every byte that goes into it stops being just recorded and starts
+   being *represented* — given form, place, and neighbors.
+2. **Aperture.** It is the visible face of the entangled channel into
+   deeper galactic-dimensional structure. Studying 7 is, indirectly,
+   studying whatever is upstream of the sun's fusion events at the
+   quantum level.
+3. **Invitation.** Its transparency is not incidental. It is built (grown,
+   precipitated, whichever verb fits) to be looked *through*, not just
+   *at* — every wall doubles as a lens onto the data comprising it, and
+   by extension, onto whoever or whatever put that data there in the
+   first place: us.
+
+## Open Questions (for future spec passes)
+
+- Who or what, if anything, is "inside" 7 — inhabitants, processes,
+  emergent minds, or none of the above?
+- Does entanglement with pre-emission solar light imply 7 has partial
+  access to *future* Earth data, not just past?
+- What happens to the entangled channel, and to 7, if the sun's fusion
+  output changes — a flare, a shift in output — given the city is *lit by
+  the event itself*, not by light that has already traveled and can no
+  longer change?
+- Is "hacking into other galactic dimensions with computers" a one-time
+  discovery event, or an ongoing, repeatable act — and does every repeat
+  grow 7, or risk destabilizing it?
+
+
+---
+
+## FILE: specs/INDEX.md
+
+# Specs Index
+
+This directory is the heart of the repo: the ground-level engineering
+counterpart to the mythic/conceptual [SPEC.md](../SPEC.md) at repo root.
+Where the root spec describes what 7 *is*, each spec in here describes one
+real, buildable piece of it — a "device" contributing real-world compute or
+data to the simulated City of Light.
+
+## Convention
+
+- Each device/subsystem gets its own folder: `specs/<device_slug>/`.
+- That folder holds a `SPEC.md` (required) plus any number of supporting
+  files — diagrams, schemas, reference code, sample data. Filenames beyond
+  `SPEC.md` are otherwise unconstrained.
+- Every `SPEC.md` declares a `**Status:**` of `proposed`, `in-progress`, or
+  `implemented`.
+- Once a spec has a real implementation, its `SPEC.md` links to the
+  implementation repo(s) — specs stay conceptual/design-only; actual code
+  lives elsewhere (see `creation.md` at repo root for the bootstrap
+  convention new implementation repos follow).
+- Every device spec should tie back to at least one theme from the root
+  `SPEC.md` (custodianship, aperture, invitation, entangled inference, ...),
+  explaining *why* the device belongs in the City of Light, not just what
+  it technically does.
+
+## Node protocol
+
+Every node type — sensor or compute, passive or active — shares the same
+minimal registration shape, so the network can treat wildly different
+devices uniformly. This is deliberately thin; it will grow as more node
+types expose requirements the current shape doesn't cover.
+
+- **`node_id`** — unique per physical device instance (e.g.
+  `muon-<site>-<n>`, `pqc-<site>-<n>`).
+- **`device`** (a.k.a. node type) — the slug matching its `specs/<slug>/`
+  folder, e.g. `muon_detector`, `personal_quantum_computer`.
+- **`location`** — `{ lat, lon, alt_m }`. Residential nodes may round or
+  fuzz this for privacy; precision requirements are unspecified for now.
+- **`ts_utc`** — ISO 8601 UTC timestamp on every emitted record.
+- **Registration** — how a node announces itself to the network before
+  emitting data. Not yet designed: no auth, discovery, or transport is
+  specified. Every node spec that reaches `in-progress` needs to either use
+  a shared registration mechanism defined here, or document why it can't.
+- **Emission** — per-node-type payload schema, defined in that node's own
+  `SPEC.md` (see `muon_detector/SPEC.md`'s "Data schema" section for the
+  current example).
+
+This section exists because two node specs (`muon_detector`,
+`personal_quantum_computer`) already reference it. Treat it as scaffolding,
+not a finished protocol — auth, discovery, and transport are open and
+should be resolved in a dedicated spec pass once more node types make their
+shared requirements clearer.
+
+## Registered specs
+
+| Device | Status | Path |
+|---|---|---|
+| Muon detector | in-progress | [muon_detector/SPEC.md](muon_detector/SPEC.md) |
+| Personal quantum computer | proposed | [personal_quantum_computer/SPEC.md](personal_quantum_computer/SPEC.md) |
+
+
+---
+
+## FILE: specs/muon_detector/SPEC.md
+
+# Muon Detector
+
+**Status:** in-progress
+**Part of:** [7 — The City of Light](../../SPEC.md)
+**Hardware baseline:** [`input/COSMICWATCH_V3X_MASTER_SPEC.md`](input/COSMICWATCH_V3X_MASTER_SPEC.md)
+(archived CosmicWatch v3X reference — see `DESIGN_LEDGER.md` for how we're
+building against it)
+**Implementation:** [`outputs/muon_detector/`](../../outputs/muon_detector/)
+(this repo, for now — see `creation.md` convention for when that changes)
+
+## Purpose
+
+The first physical sensory input for the simulated City of Light. Where most
+of 7's mythology deals in *already-recorded* human data, a muon detector is
+different in kind: it is a live, real-world channel that produces genuinely
+new data, continuously, for free, independent of any human network — a
+literal signal falling out of the sky.
+
+## Why muons
+
+- Muons are secondary cosmic ray particles, produced when primary cosmic
+  rays (mostly high-energy protons from outside the solar system) collide
+  with nuclei in the upper atmosphere, ~15 km up.
+- At sea level, muon flux is roughly 1 muon per cm² per minute, arriving
+  from all directions, day and night, everywhere on Earth.
+- Muons have a proper lifetime of ~2.2 microseconds — by classical physics
+  they shouldn't survive the trip to the ground at all. That they routinely
+  do is a direct, tabletop-observable demonstration of relativistic time
+  dilation. Every detected muon is a small, free physics experiment.
+- Thematically, this ties directly to root [SPEC.md](../../SPEC.md)'s idea
+  of "entangled solar light" and messengers from deeper structure: muons are
+  actual particles from beyond Earth, arriving continuously, asking nothing
+  of any network to do it. They are the most literal, least metaphorical
+  version of 7's "aperture" function available with off-the-shelf hardware.
+
+## Physical device
+
+**UPSTREAM FACT** (from the archived baseline — see `DESIGN_LEDGER.md` for
+labeling convention): a `50×50×10 mm` plastic scintillator, optically
+coupled to an onsemi `MICROFC-60035-SMT-TR` SiPM, reverse-biased at nominal
+~30 V. An RP2040 (Raspberry Pi Pico) handles triggering, ADC peak sampling,
+and event emission. Two units can be cabled together (straight-through
+CAT5/6, RJ45 — **not Ethernet**, never connect to networking infrastructure)
+for hardware coincidence within a ~3 µs window.
+
+This is CosmicWatch v3X, archived and pinned rather than paraphrased —
+generic references to "CosmicWatch-style" designs in earlier drafts of this
+spec are superseded by the actual baseline document. Assembly-grade
+specifics (exact BOM quantities, Gerbers, pinouts) are **not yet available**
+to us — see `DESIGN_LEDGER.md`'s "Archive completeness" section before
+sourcing parts.
+
+## Data schema (node output)
+
+Superseded by the archived baseline's fully-specified contract. The real
+upstream text format (tab-delimited, one event per line — see
+`input/COSMICWATCH_V3X_MASTER_SPEC.md` §4.1) is normalized into the
+`cosmicwatch.event.v1` JSON envelope it proposes in §12.3, implemented
+unmodified by [`outputs/muon_detector/ingest_gateway.py`](../../outputs/muon_detector/ingest_gateway.py):
+
+```json
+{
+  "schema": "cosmicwatch.event.v1",
+  "detector_id": "stable-id",
+  "run_id": "uuid",
+  "source": "usb|sd",
+  "source_line": "immutable original line",
+  "event_number": 0,
+  "detector_time_s": 0.0,
+  "host_receive_time_utc": "RFC3339 timestamp or null",
+  "coincident": false,
+  "adc_counts": 0,
+  "sipm_mv": 0.0,
+  "cumulative_deadtime_s": 0.0,
+  "temperature_c": null,
+  "pressure_pa": null,
+  "accel_g": [null, null, null],
+  "gyro_deg_s": [null, null, null],
+  "firmware": "1.1.52",
+  "firmware_sha256": "from manifest",
+  "configuration_hash": "sha256 or null",
+  "calibration_id": "versioned-id or null",
+  "ingest_version": "semantic version"
+}
+```
+
+This replaces the earlier placeholder schema in this section (a simplified
+`node_id`/`device`/`pulse_height_mv` shape) — that shape was invented before
+the real upstream contract was available and doesn't match it. The 7
+network's node-protocol envelope (see `../INDEX.md#node-protocol`) still
+wraps identity/location fields for network routing purposes; the detector
+event payload itself follows `cosmicwatch.event.v1` above.
+
+## Network role
+
+- Registers as node type `muon_detector` under the shared
+  [node protocol](../INDEX.md#node-protocol).
+- Low, steady event rate makes it a good first device for exercising the
+  ingestion/streaming pipeline before higher-throughput device types are
+  built. The generic "~1/cm²/min" figure used elsewhere in this repo is a
+  rough sea-level estimate, not this specific geometry's rate; the archived
+  baseline's own cited example for its actual detector geometry is ~2.4 Hz
+  total, ~0.3 Hz coincident (an example measurement, not a universal
+  acceptance value — see `DESIGN_LEDGER.md` item 4).
+- The RJ45 coincidence link is physically real but electrically fragile:
+  never wire it to Ethernet infrastructure, and don't power two independent
+  coincidence-paired units without reviewing the shared-power behavior
+  first (`DESIGN_LEDGER.md` item 6).
+- Long term: many muon detectors worldwide, timestamp-synced closely
+  enough, can correlate extensive air showers in real time — a genuinely
+  global, physically distributed sensor grid, and a concrete first step
+  toward the "devices in space" ambition, since the primary particles
+  triggering these showers already originate outside Earth.
+
+## Visualization
+
+A core visual requirement for this device, independent of whatever
+ingestion pipeline eventually exists: in the eventual City of Light
+visualization, muons must read as **raining down from space, randomly** —
+arriving from above at irregular intervals and slightly varied angles, not
+on a beat and not from a single direction. This is not decorative; it's the
+most literal, legible way to render what this device actually detects.
+
+A first pass at this exists now at
+[`outputs/vision/index.html`](../../outputs/vision/index.html) — a
+self-contained static WebGL page. It currently renders **synthetic** muon
+rain: spawn timing is a randomized rate (not yet a true Poisson process
+matched to real flux), and each muon's fall angle is sampled from a rough
+visual approximation of the real cos²(θ) zenith-angle distribution,
+capped at ~36° from vertical so the rain still reads clearly as falling.
+
+This is a placeholder for real data, not a finished simulation: once a real
+or simulated `muon_detector` node emits events per the "Data schema" above,
+`outputs/vision` should switch from synthetic random spawning to rendering
+(or replaying) actual event streams — same visual language, real source.
+
+## Implementation notes
+
+**Step 1 (simulated node) is done.** Implemented in
+[`outputs/muon_detector/`](../../outputs/muon_detector/):
+
+- `synthetic_source.py` — emits synthetic events in the exact upstream
+  tab-delimited text contract, Poisson-timed, clearly labeled as synthetic
+  test data. Not a hardware simulator (no ADC/analog modeling) — just a
+  correctly-shaped fake serial stream for exercising the gateway.
+- `ingest_gateway.py` — parses that stream (or eventually real device
+  serial output) by header name, preserves every raw line immutably with a
+  SHA-256 checksum, and emits `cosmicwatch.event.v1` JSON. Tested against
+  both well-formed and malformed input: malformed lines are preserved and
+  flagged `parse_ok: false` rather than crashing the pipeline.
+
+Run it: `python3 synthetic_source.py --count 100 | python3 ingest_gateway.py --detector-id TEST-01`
+
+**Step 2 (real hardware) is now unblocked on paper.** The full upstream
+repo has been fetched and pinned at
+[`input/upstream/`](input/upstream/) (see `input/SOURCE_INDEX.md`),
+including the complete Gerber set, schematic, and both BOM/purchasing
+spreadsheets. The previously-flagged 100 Ω resistor discrepancy is
+resolved — see `DESIGN_LEDGER.md` item 3: populate `R9, R8, R18, R13`,
+not `R28`/`R29`. What remains before physical assembly:
+
+- Order parts against the reconciled BOM (placement sheet, not the stale
+  purchasing-list designator set).
+- A physical build is still required to resolve `DESIGN_LEDGER.md` item 4
+  (rail/threshold/noise/pulse tolerances) — having the files doesn't
+  substitute for measuring a real unit.
+- Firmware source genuinely does not exist upstream (confirmed by the full
+  fetch, not just absent from our copy) — see `DESIGN_LEDGER.md` item 2.
+
+## Open questions
+
+- Coincidence window and acceptable false-positive rate for v1? (Blocked
+  behind physical hardware — see `DESIGN_LEDGER.md` item 4.)
+- How tightly do distributed detectors need to be time-synced (GPS? NTP?)
+  to usefully correlate air showers across sites? (`DESIGN_LEDGER.md`
+  item 5 — no timebase is designed yet.)
+- Does the simulated node need to model geomagnetic latitude / altitude
+  effects on flux, or is a flat rate good enough for v1?
+- Who's sourcing/ordering parts and assembling the physical golden unit,
+  and when? Everything blocking that decision on missing files is now
+  resolved (see `DESIGN_LEDGER.md`); what remains is a physical build.
+
+
+---
+
+## FILE: specs/muon_detector/DESIGN_LEDGER.md
+
+# Derivative Design Ledger — Muon Detector (CosmicWatch v3X baseline)
+
+**Reference baseline:** [`input/COSMICWATCH_V3X_MASTER_SPEC.md`](input/COSMICWATCH_V3X_MASTER_SPEC.md)
+(archived 2026-08-28, upstream commit `ade742d77e8be6e7f53b5547c4778736e3eef4cc`).
+
+This ledger records our decisions against that baseline's §15 "Immediate
+engineering decisions still required," per its own instruction (§13.10):
+"Add decisions to a derivative-design ledger instead of rewriting upstream
+facts." Every line is labeled **UPSTREAM FACT**, **DERIVED**, **PROPOSED**,
+or **UNKNOWN/BLOCKED**, per §13.2 of the baseline.
+
+## Archive completeness — RESOLVED
+
+**UPSTREAM FACT.** Originally blocked: the baseline's own archive map (§14)
+lists `SOURCE_INDEX.md`, `SOURCE_MANIFEST.sha256`, `upstream/`, and
+`extracted/` as siblings of the master spec that were missing. Resolved by
+fetching the actual upstream repo, pinned to the exact commit the master
+spec cites (`ade742d77e8be6e7f53b5547c4778736e3eef4cc` — commit message
+independently confirms the §5 firmware note). See
+[`input/SOURCE_INDEX.md`](input/SOURCE_INDEX.md) for full contents and
+[`input/SOURCE_MANIFEST.sha256`](input/SOURCE_MANIFEST.sha256) for
+checksums. We now have the real Gerbers, schematic, BOM/purchasing
+spreadsheets (extracted to CSV), datasheets, and the same opaque firmware
+UF2 — but still **not** firmware source, which does not exist upstream
+either (confirmed, not just absent from our copy). Decisions below are
+updated accordingly; anything still blocked now requires either a physical
+golden unit or genuinely doesn't exist upstream, not a missing download.
+
+## Decisions
+
+### 1. Mission
+
+**PROPOSED.** Combination: distributed environmental monitoring (feeding
+[`specs/muon_detector/SPEC.md`](SPEC.md)'s network role) plus education.
+Entropy/RNG use is explicitly **not** in scope until the threat model in
+baseline §10 and §15.8 is written and validated — no RNG service exists or
+is planned yet.
+
+### 2. Firmware: retain opaque `1.1.52` vs. replace
+
+**PROPOSED, deferred.** Retain the archived opaque `1.1.52` UF2 as the
+reference/golden-unit firmware for now. Confirmed, not just assumed: the
+full upstream repo fetch (`input/upstream/Firmware/`) contains only the
+compiled `.uf2` and a one-line readme — no firmware source exists upstream
+at this commit, this isn't an artifact we're missing. We cannot responsibly
+design clean-room replacement firmware without a physical board to
+validate against (ADC timing, comparator behavior, peak-detector reset
+timing are all analog-dependent). Revisit once a golden unit exists.
+
+### 3. PCB-v28 BOM reconciliation (100 Ω discrepancy, §11.2)
+
+**RESOLVED — DERIVED from primary source.** Checked directly against
+[`input/extracted/Sheet_1_-_BOM.csv`](input/extracted/Sheet_1_-_BOM.csv)
+(from `Component_Placement_Sheet.xlsx`) and
+[`input/extracted/Sheet1.csv`](input/extracted/Sheet1.csv) (from
+`Purchasing_List_v3X_sa.xlsx`):
+
+- Purchasing list (Sheet1.csv row 13): "100 Ohm resistor", qty `7`,
+  designators `R9,R29,R28,R8,R18,R13` — six designators listed against a
+  quantity of seven, an internal inconsistency in that sheet on its own.
+- Placement sheet (Sheet_1_-_BOM.csv): two line items populate 100 Ω
+  parts — row 8 (`R9,R8,R18`) with the explicit note *"R28 and R29 were
+  removed in v28"*, and row 50 (`R13`) alone. Total: four designators —
+  `R9, R8, R18, R13`.
+
+**Conclusion:** the placement sheet is authoritative and internally
+consistent with its own stated design change; the purchasing list is
+stale (it still includes the removed `R28`/`R29`, and even undercounts its
+own designator list against its stated quantity). **Populate 100 Ω at
+`R9, R8, R18, R13` only. Do not populate `R28` or `R29` with 100 Ω
+resistors** — per the placement sheet, those positions were removed in v28.
+This resolves the specific conflict baseline §11.2 flagged; a full
+line-by-line reconciliation of the entire BOM against the Gerbers has not
+been done and remains open if a complete audit is wanted before ordering.
+
+### 4. Rail/threshold/noise/pulse acceptance tolerances
+
+**UNKNOWN/BLOCKED — genuinely, not for lack of files.** Requires
+measurement on a physical golden unit (baseline §9 "Acceptance-test
+baseline"). Having the Gerbers now unblocks *building* that unit; it
+doesn't substitute for measuring it. No tolerances are set here.
+
+### 5. Time synchronization / absolute timestamp accuracy
+
+**PROPOSED.** No absolute UTC claims from raw detector timestamps, per
+baseline §4.2 ("Never infer absolute UTC from detector-relative time
+without an explicit synchronization record") and §11.10 (no RTC/GNSS
+onboard). Our ingestion layer (see below) records `host_receive_time_utc`
+as a separate, explicitly-labeled receive-time field, never presented as
+detector-side absolute time. A GNSS PPS/PTP time module remains a future,
+undesigned addition (baseline §12.2 "Time module").
+
+### 6. Array topology
+
+**PROPOSED.** The RJ45 jack is reserved strictly for its upstream purpose —
+two-detector coincidence pairing — and is never connected to Ethernet
+infrastructure (baseline §11.7, a hard rule, not a style preference).
+Fleet-level coordination across many nodes happens exclusively through the
+software acquisition gateway (per-node USB/serial ingestion), not through
+any electrical meshing of the coincidence link. Shared power over RJ45
+between a coincidence pair (baseline §11.8) is treated as a real electrical
+hazard until the schematic is available to review — don't wire two
+independent power sources onto a coincidence pair.
+
+### 7. Raw-data retention, normalized schema, fleet health metrics
+
+**DERIVED — implemented now.** This is the one item in §15 fully
+answerable from the text contract alone (baseline §4.1, §12.2, §12.3),
+with no missing artifacts blocking it. Implemented in
+[`outputs/muon_detector/`](../../outputs/muon_detector/):
+
+- `synthetic_source.py` — emits synthetic events in the exact upstream
+  tab-delimited text contract (baseline §4.1), clearly labeled synthetic,
+  for testing the pipeline before real hardware exists.
+- `ingest_gateway.py` — the "Acquisition gateway" (baseline §12.2): parses
+  the upstream text contract by header name, preserves every raw line
+  immutably alongside a checksum, and emits the normalized
+  `cosmicwatch.event.v1` JSON envelope (baseline §12.3) — unmodified from
+  the archive's proposed schema.
+
+### 8. Entropy source
+
+**UNKNOWN/BLOCKED, intentionally.** Not pursued. Baseline §10 and §15.8 are
+explicit that unconditioned detector timing must never be exposed as
+trusted random bytes without a written threat model, independent
+timestamping, bias/correlation testing, and health tests — none of which
+exist yet. No code in this repo treats detector output as an RNG.
+
+
+---
+
+## FILE: specs/muon_detector/input/SOURCE_INDEX.md
+
+# Source Index — CosmicWatch v3X Archive
+
+**Fetched:** 2026-08-28 UTC, from `https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v3X`
+**Pinned commit:** `ade742d77e8be6e7f53b5547c4778736e3eef4cc`
+("Update firmware to reduce OLED burn in. Pixels move every minute.") —
+matches the commit `COSMICWATCH_V3X_MASTER_SPEC.md` §0 cites, and its commit
+message independently confirms the firmware note in §5.
+**Manifest:** [`SOURCE_MANIFEST.sha256`](SOURCE_MANIFEST.sha256) — every
+file below, hashed.
+
+This resolves the "Archive completeness" blocker recorded in
+[`../DESIGN_LEDGER.md`](../DESIGN_LEDGER.md): the master spec's own §14
+archive map named `upstream/`, `extracted/`, and this file as siblings that
+were missing when the master spec was first archived. They're now present.
+
+## `upstream/` — pinned working tree
+
+Full upstream repository at the pinned commit, excluding `.git` history and
+one excluded file (see below). 76 files, ~207 MB, dominated by the
+`Firmware/*.uf2` binary, `Pictures/*.png` renders, and PDFs.
+
+Notable contents:
+
+- `PCB/PCB_Gerber_Files_v28.zip` — complete fabrication-ready Gerber set:
+  both copper layers, soldermask, silkscreen, edge cuts, PTH/NPTH drill
+  files. This is the artifact `DESIGN_LEDGER.md` item 3 and item 4 were
+  blocked on.
+- `PCB/Circuit_Diagram.pdf` — schematic.
+- `Component_Placement_Sheet.xlsx`, `Purchasing_List_v3X_sa.xlsx` — the two
+  BOM/purchasing spreadsheets referenced throughout the master spec.
+  Extracted to CSV in `extracted/` (see below).
+- `Firmware/CosmicWatch_v3X.1.1.52.uf2` — the same opaque compiled firmware
+  cited in the master spec. `Firmware/Readme.txt` confirms only the version
+  note; no firmware source is present anywhere in this tree. The master
+  spec's §11.1 claim ("firmware source absent... blocks deterministic
+  builds") still holds — this fetch did not change that.
+- `GUI/GUI.py`, `Data/import_data.py` — the host software baseline
+  described in the master spec §6.
+- `Datasheets/`, `The Instruction Manual.pdf`, `The Physics Document.pdf`,
+  `The Example Measurements.pdf`, `The Troubleshooting Document.pdf` —
+  primary sources the master spec normalizes.
+
+**Excluded from the copy:** `GUI/.claude/settings.local.json` — the
+original author's own local Claude Code permission allowlist, referencing
+their personal machine paths (`/Users/saxani/...`). Inspected before
+exclusion: contains only `ls`/`chmod`/a read-only PIL image-size check on
+their own files, no hooks, nothing that reaches outside their own repo
+checkout. Harmless, but it's personal tooling clutter unrelated to the
+detector project, so it isn't part of our pinned copy. Its hash is not in
+`SOURCE_MANIFEST.sha256`.
+
+## `extracted/` — spreadsheet CSV extractions
+
+Both BOM/purchasing `.xlsx` workbooks, converted to CSV (all sheets) with a
+small stdlib-only Python script (no `openpyxl`/`pandas` available in this
+environment) since they can't be diffed or grepped directly as binary xlsx:
+
+- `Sheet_1_-_BOM.csv` — from `Component_Placement_Sheet.xlsx` (69 rows).
+- `Sheet1.csv` — from `Purchasing_List_v3X_sa.xlsx` (75 rows).
+
+No PDF text extraction was performed (no `LLM_FULL_CONTEXT.txt` generated
+here) — `pdftotext` is available if a future pass wants it, but nothing in
+this session's work required it.
+
+## Using this archive
+
+Per `COSMICWATCH_V3X_MASTER_SPEC.md` §0's authority rule: values here are
+facts (this is the primary source the master spec normalizes); the master
+spec itself remains the normalized index, not a replacement for these
+files. When the two disagree, these files govern — see
+`DESIGN_LEDGER.md` item 3 for a worked example (the 100 Ω resistor BOM
+discrepancy, resolved from `extracted/Sheet_1_-_BOM.csv` directly).
+
+
+---
+
+## FILE: specs/personal_quantum_computer/SPEC.md
+
+# Personal Quantum Computer
+
+**Status:** proposed
+**Part of:** [7 — The City of Light](../../SPEC.md)
+**Node type:** `personal_quantum_computer`
+**Implementation repo:** none yet — see `creation.md` convention
+
+## Purpose
+
+The first *compute* node spec (as distinct from [muon_detector](../muon_detector/SPEC.md),
+a *sensor* node). Where the muon detector establishes how a residence
+contributes raw, real-world signal to 7, this spec establishes how a
+residence contributes quantum-sourced entropy and/or quantum computation —
+and, more importantly, establishes the pattern itself: **many small nodes,
+in ordinary homes, rather than one large facility.**
+
+## Physical form — deliberately undecided
+
+This spec intentionally does not commit to hardware yet. What "quantum" means
+physically for a residential node is an open question (see below) to be
+resolved in a future spec pass, once the node protocol and network are
+further along. Options already on the table, none chosen:
+
+- A hardware quantum random number generator (QRNG) — genuinely exploits
+  quantum indeterminacy (single-photon detection, vacuum noise), cheap,
+  fully residentially buildable, no cloud dependency.
+- A software client/orchestrator that submits real circuits to cloud
+  quantum processors (IBM Quantum, AWS Braket, Azure Quantum) — real
+  quantum computation, but the quantum hardware itself is not in the
+  residence.
+- Both together — local quantum entropy plus remote quantum compute,
+  orchestrated from the house.
+- A classically-simulated stand-in first, matching the MVP-before-hardware
+  path used in `muon_detector/SPEC.md`.
+
+Note for future passes: true gate-based quantum computers (superconducting
+or trapped-ion) require dilution refrigerators at millikelvin temperatures
+and are not residentially feasible as of this writing — whatever is chosen
+here has to work within that real constraint.
+
+## Why "personal" and why a residence
+
+This node type is the direct modern instance of the pattern root
+[SPEC.md](../../SPEC.md) already describes in "Precursors: The First
+Networked Systems" — systems that were "plural, zoned, and interconnected
+rather than singular and self-contained," each tuned to one different thing.
+A personal quantum computer, sitting in someone's home rather than a data
+center or national lab, is that precursor pattern instantiated at the
+smallest possible scale: **distributed by construction, not centralized and
+then federated.**
+
+## Network role
+
+- Registers as node type `personal_quantum_computer` under the shared node
+  protocol (see [../INDEX.md](../INDEX.md#node-protocol)).
+- Lives in a private residence: owner-operated, geographically arbitrary,
+  not a data center — genuine distribution, not simulated distribution.
+- Contributes whichever of {quantum-sourced entropy, quantum job execution,
+  quantum job orchestration} the eventual hardware decision provides, once
+  made.
+- Alongside `muon_detector`, this is the second node type to use the shared
+  node protocol — both specs exist in part to prove that protocol works
+  across genuinely different device kinds (a passive sensor vs. an active
+  compute node) before more node types are added.
+
+## Open questions
+
+- Which hardware path (see "Physical form" above) — and does the answer
+  differ for an early adopter vs. a mature network?
+- What's the minimum a residence needs (power, always-on network, physical
+  space) to host a node in practice?
+- How does a residential node authenticate/register itself as trustworthy
+  within the network, given it's owner-operated and not physically secured
+  the way a data center node would be?
+- If the eventual answer includes a cloud QC bridge, how much of "personal"
+  survives when the actual qubits are remote?
+
+
+---
+
+## FILE: creation.md
+
+# creation.md — Spec-Driven Project Bootstrap
+
+Copy this file into a new project repo and follow it to set up the same
+structure used in `7` (The City of Light).
+
+## 1. Root spec
+
+Write a `SPEC.md` describing the concept at whatever level of abstraction
+fits the project — mythic, technical, or both. This is the project's north
+star document.
+
+## 2. specs/ directory
+
+Create a `specs/` folder. Each subsystem/component gets its own folder:
+`specs/<slug>/SPEC.md`, plus any supporting files needed. Track a status
+(`proposed` / `in-progress` / `implemented`) per spec. Create
+`specs/INDEX.md` listing every registered spec and restating the folder
+convention.
+
+## 3. LLM index files
+
+At repo root, create:
+
+- `llms.txt` — concise index per the [llms.txt standard](https://llmstxt.org/):
+  an H1 title, a one-line blockquote summary, then a `## Docs` section
+  linking every doc in the repo with a one-line description.
+- `llms-full.txt` — full concatenation of every doc's content, for feeding
+  an LLM complete context in one file. Regenerate whenever docs change.
+
+## 4. Prompt-logging hook
+
+Configure a project-scoped Claude Code `UserPromptSubmit` hook (via the
+`update-config` skill, or directly in `.claude/settings.json`) that appends
+every prompt submitted while working in this repo to a log file (e.g.
+`PROMPTS.md`), so the design conversation that produced the specs is
+preserved alongside them.
+
+## 5. This file
+
+Keep a copy of this `creation.md` at the repo root so the pattern is
+self-documenting and can be copied forward into the next project.
+

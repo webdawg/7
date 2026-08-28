@@ -1,0 +1,50 @@
+# 7 — The City of Light
+
+> A simulated global "quantum computer" made of every connected device on
+> Earth — and eventually in space — working as one machine. This repo holds
+> the mythic/conceptual spec plus per-device engineering specs; each device
+> spec is implemented as real software in a separate repo.
+
+## Docs
+
+- [SPEC.md](SPEC.md): the conceptual/mythic spec — what 7 is, its origin,
+  form, and function.
+- [specs/INDEX.md](specs/INDEX.md): index and conventions for per-device
+  engineering specs.
+- [specs/muon_detector/SPEC.md](specs/muon_detector/SPEC.md): first device
+  spec — a real-world cosmic-ray muon detector as a physical sensory input
+  node. In progress: built against an archived CosmicWatch v3X baseline.
+- [specs/muon_detector/DESIGN_LEDGER.md](specs/muon_detector/DESIGN_LEDGER.md):
+  decision ledger tracking what's decided, proposed, or blocked against the
+  archived hardware baseline.
+- [specs/muon_detector/input/SOURCE_INDEX.md](specs/muon_detector/input/SOURCE_INDEX.md):
+  provenance and contents of the full pinned upstream CosmicWatch v3X repo
+  (Gerbers, schematic, BOM spreadsheets, firmware, datasheets) fetched into
+  `input/upstream/`, plus CSV extractions of the BOM spreadsheets in
+  `input/extracted/`.
+- [specs/personal_quantum_computer/SPEC.md](specs/personal_quantum_computer/SPEC.md):
+  second device spec — a residential compute node establishing the
+  distributed, small-nodes-everywhere pattern; hardware approach
+  intentionally left open.
+- [creation.md](creation.md): reusable checklist/template for bootstrapping
+  new repos in this same spec-driven style.
+
+## Outputs
+
+- [outputs/vision/index.html](outputs/vision/index.html): self-contained
+  static WebGL page — first pass at the eventual City of Light
+  visualization. Currently renders synthetic muon rain (random spawn
+  timing, cos²(θ)-biased fall angle); see `specs/muon_detector/SPEC.md`'s
+  "Visualization" section.
+- [outputs/muon_detector/synthetic_source.py](outputs/muon_detector/synthetic_source.py)
+  and [outputs/muon_detector/ingest_gateway.py](outputs/muon_detector/ingest_gateway.py):
+  working, tested software for the muon detector's data plane — a
+  synthetic event source matching the real CosmicWatch v3X text contract,
+  and an ingestion gateway that normalizes it (or eventual real device
+  output) into the `cosmicwatch.event.v1` JSON envelope.
+
+## Optional
+
+- [README.md](README.md): license and repo basics.
+- [llms-full.txt](llms-full.txt): full concatenated text of all docs above,
+  for full-context LLM ingestion.

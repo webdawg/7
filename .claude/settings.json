@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '(now | gmtime | strftime(\"%Y-%m-%dT%H:%M:%SZ\")) as $ts | \"\\n## \" + $ts + \"\\n\\n\" + .prompt + \"\\n\"' >> \"$CLAUDE_PROJECT_DIR/PROMPTS.md\" 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
